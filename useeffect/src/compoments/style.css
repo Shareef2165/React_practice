@@ -8,9 +8,10 @@ body{
 }
 body .homepage{
     width: 100%;
-    max-width: 80%;
+    /* max-width: 80%; */
     box-shadow: 2px 2px 10px;
     padding: 2em;
+    backdrop-filter: blur(1rem);
 
 }
 .task-list {
@@ -28,7 +29,7 @@ body .homepage{
     padding: 10px;
     border-bottom: 1px solid #ccc;
     max-width: 70%;
-    margin: 0 auto; /* Center the content horizontally */
+    margin: 0 auto; 
 }
 
 .task-title {
