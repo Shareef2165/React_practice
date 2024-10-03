@@ -1,0 +1,57 @@
+.app-container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  background-color: #f8f8f8;
+}
+
+.refresh-btn {
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+  z-index: 40;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.table-container {
+  background-color: #bdbdbd;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.fixture-item {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.team-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.team-name {
+  width: 32%;
+  text-align: center;
+}
+
+.score {
+  width: 16%;
+  text-align: center;
+}
+
+.elapsed-time {
+  text-align: center;
+  color: green;
+}
+
+.center {
+  text-align: center;
+}
